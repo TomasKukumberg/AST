@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "abstract-syntax-tree": "^2.21.0"
+  }
+}
