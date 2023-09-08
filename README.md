@@ -26,13 +26,19 @@ npm install -g typescript
 npm install
 ```
 
-### 5. Compile the typescript file
+### 5. Make a new folder in data folder
+
+```bash
+mkdir data/output
+```
+
+### 6. Compile the typescript file
 
 ```bash
 tsc main.ts
 ```
 
-### 6. Run the project with Node.js
+### 7. Run the project with Node.js
 
 ```bash
 node ./main.js data/input/ data/output/
