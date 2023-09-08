@@ -14,10 +14,10 @@ export default class FileProcessor {
     private outputFolder: string;
     private variableRenamer: VariableRenamer;
 
-    constructor(inputFolder: string, outputFolder: string, variableRenamer: VariableRenamer) {
+    constructor(inputFolder: string, outputFolder: string) {
         this.inputFolder = inputFolder;
         this.outputFolder = outputFolder;
-        this.variableRenamer = variableRenamer;
+        this.variableRenamer = new VariableRenamer();
     }
 
     private processFile(file: string): ProcessedFile {
